@@ -1,0 +1,29 @@
+
+*{box-sizing:border-box;}
+
+.container{
+	display:grid;
+	grid-template-columns:1fr 1fr;
+	grid-template-areas:"n n"
+						"t t"
+						"f f";
+	grid-gap:10px;
+}
+
+.navbar{
+	background-color:#689689;
+	grid-area:n;
+	border:3px solid #846A6A;
+}
+
+.title{
+	background-color:#689689;
+	grid-area:t;
+	border:3px solid #846A6A;
+}
+
+.info{
+	background-color:#689689;
+	grid-area:f;
+	border:3px solid #846A6A;
+}

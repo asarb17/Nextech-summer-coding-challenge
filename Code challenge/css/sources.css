@@ -1,0 +1,92 @@
+
+
+*{box-sizing:border-box;}
+
+.container{
+	display:grid;
+	grid-template-columns:1fr 1fr 1fr;
+	grid-template-areas:"n n n"
+						"t t t"
+						"h e s"
+						"c l a"
+						"y o g";
+	grid-gap:10px;
+	width:100%;
+}
+
+.navbar{
+	grid-area:n;
+	background-color:#689689;
+	border:3px solid #846A6A;
+}
+
+.title{
+	grid-area:t;
+	background-color:#689689;
+	border:3px solid #846A6A;
+}
+
+.homeSource{
+	grid-area:h;
+	background-color:#689689;
+	border:3px solid #846A6A;
+}
+
+.heartSource{
+	grid-area:e;
+	background-color:#689689;
+	border:3px solid #846A6A;
+}
+
+.stroke{
+	grid-area:s;
+	background-color:#689689;
+	word-wrap:break-word;
+	border:3px solid #846A6A;
+}
+
+.copdSource{
+	grid-area:c;
+	background-color:#689689;
+	border:3px solid #846A6A;
+}
+
+.lungSource{
+	grid-area:l;
+	background-color:#689689;
+	border:3px solid #846A6A;
+}
+
+.acuteSource{
+	grid-area:a;
+	background-color:#689689;
+	word-wrap:break-word;
+	border:3px solid #846A6A;
+}
+
+.helpSource{
+	grid-area:y;
+	background-color:#689689;
+	border:3px solid #846A6A;
+}
+
+.covidSource{
+	grid-area:o;
+	background-color:#689689;
+	border:3px solid #846A6A;
+}
+
+.saharaSource{
+	grid-area:g;
+	background-color:#689689;
+	word-wrap:break-word;
+	border:3px solid #846A6A;
+}
+
+a{
+    white-space: pre-wrap; /* CSS3 */    
+    white-space: -moz-pre-wrap; /* Mozilla, since 1999 */
+    white-space: -pre-wrap; /* Opera 4-6 */    
+    white-space: -o-pre-wrap; /* Opera 7 */    
+    word-wrap: break-word; /* Internet Explorer 5.5+ */
+}

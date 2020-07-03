@@ -1,0 +1,64 @@
+
+*{box-sizing:border-box;}
+
+.container{
+	display:grid;
+	grid-template-columns:1fr 1fr;
+	grid-template-areas:"n n"
+						"t t"
+						"o o"
+						"h a"
+						"l s"
+						"c c";
+	grid-gap:10px;
+}
+
+.navbar{
+	grid-area:n;
+	background-color:#689689;
+	border:3px solid #846A6A;
+}
+
+.title{
+	grid-area:t;
+	text-align:center;
+	background-color:#689689;
+	border:3px solid #846A6A;
+}
+
+.overview{
+	grid-area:o;
+	text-align:center;
+	background-color:#689689;
+	border:3px solid #846A6A;
+}
+
+.heartDisease{
+	grid-area:h;
+	background-color:#689689;
+	border:3px solid #846A6A;
+}
+
+.stroke{
+	grid-area:s;
+	background-color:#689689;
+	border:3px solid #846A6A;
+}
+
+.COPD{
+	grid-area:c;
+	background-color:#689689;
+	border:3px solid #846A6A;
+}
+
+.lungCancer{
+	grid-area:l;
+	background-color:#689689;
+	border:3px solid #846A6A;
+}
+
+.acute{
+	grid-area:a;
+	background-color:#689689;
+	border:3px solid #846A6A;
+}
